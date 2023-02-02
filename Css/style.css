@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+.top{
+    min-height: 100vh;
+    background: url('../images/hero-bg.jpg') center/cover;
+}
+
+/* START NAVBAR */
+
+nav{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .bloc_logo{
+    margin-left: 200px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+nav .lien_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 90px;
+}
+
+nav .lien_nav > div{
+    margin: 20px;
+}
+nav .lien_nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav .lien_nav a:hover{
+    color: goldenrod;
+}
+
+nav .bloc_panier{
+    display: flex;
+    margin-right: 250px;
+}
+
+nav .bloc_panier .icons{
+    margin: 10px 20px 10px 10px;
+}
+
+nav .bloc_panier .icons i{
+    margin: 5px;
+    cursor: pointer;
+}
+
+nav .bloc_panier .icons i img{
+    width: 20px;
+    height: 20px;
+}
+
+nav .bloc_panier .icons i img:hover{
+    color: goldenrod;
+}
+
+nav .bloc_panier div .button-ornge{
+    border: none;
+    padding: 15px 45px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+/* END NAVBAR */
+
+/*****************************************/
+
+/* START BANNER */
+.banniere{
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.banniere .content{
+    color: #fff;
+}
+
+.banniere .content h2{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.banniere .content p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.banniere .content .button-ornge{
+    border: none;
+    padding: 15px 45px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+/* END BANNER */
+
+/*****************************************/
+
+/* START SOLDE */
+
+.solde{
+    margin: 80px 0 80px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.solde .sub-solde1{
+    background-color: rgb(59, 60, 71);
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.solde .sub-solde1 .img-solde1 img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid goldenrod;
+    margin-left: 25px;
+
+}
+
+.solde .sub-solde1 .contenu{
+    margin-left: 25px;
+}
+
+.solde .sub-solde1 .contenu i{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.solde .sub-solde1 .contenu p{
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+.solde .sub-solde1 .contenu .button-ornge{
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 35px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.solde .sub-solde1 .contenu .button-ornge i > img{
+    width: 20px;
+    height: 20px;
+    font-size: 8rem;
+}
+
+.solde .sub-solde2{
+    background-color: rgb(59, 60, 71);
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: -250px;
+}
+
+.solde .sub-solde2 .img-solde2 img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid goldenrod;
+    margin-left: 25px;
+}
+
+.solde .sub-solde2 .contenu{
+    margin-left: 25px;
+}
+
+.solde .sub-solde2 .contenu i{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.solde .sub-solde2 .contenu p{
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+.solde .sub-solde2 .contenu .button-ornge{
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 35px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.solde .sub-solde2 .contenu .button-ornge i > img{
+    width: 20px;
+    height: 20px;
+    font-size: 8rem;
+}
+
+/* END SOLDE */
+
+/*****************************************/
+
+/* START MENU */
+
+.menu{
+    display: block;
+    margin: 0 20%;
+}
+
+.menu .title-menu{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 35px;
+}
+
+.menu .cat-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .cat-menu > div{
+    font-size: 1.7rem;
+    text-align: center;
+    width: 5%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.menu .cat-menu > div:hover{
+    background-color: rgb(59, 60, 71);
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.menu .submenu{
+    color: #fff;
+    background-color: rgb(59, 60, 71);
+    width: 30%;
+    border-radius: 16px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.menu .submenu .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158, 157, 157);
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.menu .submenu .image img{
+    width:180px ;
+    height:180px;
+    border-radius: 50px;
+}
+
+.menu .submenu .title-submenu{
+    font-size: 2rem;
+}
+
+.menu .submenu > p{
+    font-size: 1rem;
+}
+
+.menu .submenu .footer-submenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
